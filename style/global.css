@@ -1,0 +1,20 @@
+:root{
+    --dark-theme: #151922;
+    --light-theme:  #e3eed4;
+    --green-color1: #aec3b0;
+    --green-color2: #6b9071;
+    --green-color3: #375534;
+    --green-color2: #0f2a1d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: var(-light-theme);
+    overflow-x: hidden;
+}

@@ -1,0 +1,140 @@
+@import url(global.css);
+@import url(animations.css);
+
+/*Hero */
+.home {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem ;
+    min-height: calc(90vh - 5rem);
+}
+.content {
+    max-width: 40rem;
+    margin-left: 1%;
+    padding: 2rem;
+    padding-top: 6rem;
+    /*animation: slide_left 1.5s ease forwards;
+    animation-delay: .3s;
+    opacity: 0;*/
+}
+.content h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+}
+.content h3{
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.content p{
+    font-size: 1.5rem
+}
+.try{
+    display: flex;
+}
+.try h4{
+    font-size: 1.5rem;
+    padding-right: 20px;
+    font-weight: 500;
+}
+
+
+.hero-img {
+    width: 50%;
+    /*animation: slide_right 1.5s ease forwards;
+    animation-delay: .3s;
+    opacity: 0;*/
+}
+
+
+/* Why us */
+.why {
+    display: flex;
+    padding: 3rem;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.why h3{
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    flex-wrap: wrap;
+    max-width: 50%;
+}
+
+
+
+
+.why-img {
+    width: 35%;
+    transform: scaleX(-1) ;
+    filter: drop-shadow(10px 10px 10px rgb(168, 168, 168));
+}
+
+
+
+/* about */ 
+
+.about {
+    display: flex;
+    padding: 3rem;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.about h3{
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    flex-wrap: wrap;
+    max-width: 50%;
+}
+
+
+
+
+.about-img {
+    width: 35%;
+    transform: scaleX(1) ;
+    filter: drop-shadow(10px 5px 10px rgb(128, 128, 128));
+}
+
+/* footer */
+
+footer{
+    padding: 3rem 3rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: space-evenly;
+    color: black;
+}
+
+
+footer .column h4{
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+footer .column > a{
+    display: block;
+    color: #313f26;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+footer .column > a:hover{
+    color: var(--green-color2);
+}
+
+.copyright{
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
