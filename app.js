@@ -148,6 +148,11 @@ gsap.timeline({
 
 
 // load always on top 
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-};
+// Disable automatic scroll restoration
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+
+// Scroll to the top on page reload
+window.scrollTo(0, 0);
+
