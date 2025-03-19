@@ -142,3 +142,12 @@ gsap.timeline({
         opacity: 0,
         duration: 1.5,
     }, "-=0.9")
+
+
+
+
+
+// load always on top 
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+};
